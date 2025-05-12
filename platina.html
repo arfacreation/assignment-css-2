@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+.text {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    z-index: 3;
+    position: relative; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1266155645/photo/luxurious-master-bedroom-interior.jpg?s=2048x2048&w=is&k=20&c=QampT1DeZo0LtRzGIj9vhgtONbGNTOCmGPii0fsl9Zc=);
+    background-attachment: fixed;
+    position: absolute; 
+}
+
+.overlay {
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 204, 188, 0.5), rgba(255, 105, 180, 0.5)); 
+    z-index: 1; 
+}
+
+.two {
+    background-color: white;
+    z-index: 2; 
+    position: relative; 
+}
+
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 20%;
+    margin-left: 40%;
+    position: relative; 
+    z-index: 2;
+    margin-left: 30%;
+}
+
+.search {
+    margin-left: 40%;
+    margin-bottom: 50%;
+    background-color: white;
+    color: black;
+    padding: 3px; 
+    border-radius: 20pc;
+    width: 10%;
+    border: none;
+    position: relative; 
+    z-index: 3;
+}
+
+.arrow-up {
+       margin-left: 40%;
+    margin-bottom: 10%;
+    position: fixed; 
+    background-color: white;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.arrow-down {
+    position: fixed;
+      margin-left: 40%;
+    margin-bottom: 10%;
+bottom: 30%;
+    background-color: white;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;   
+    border-radius: 50%;
+    z-index: 4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+nav.one a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+nav.two a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 10px 0 10px 40%;
+}
+
+.h2 {
+    color: white;
+    bottom: 40%;
+}
+
+.search {
+    padding: 3px;
+    width: 10%;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border-radius: 20pc;
+    margin-left: 40%;
+    z-index: 120;
+}
+.text:hover{
+     background: linear-gradient(90deg, #ff6b6b, #f06595, #845ef7);
+font-size: xx-large;
+}
+.search:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(3, 218, 198, 0.6);
+    background: linear-gradient(90deg, #ff6b6b, #f06595, #845ef7);
+}
+.two:hover{
+     background: linear-gradient(90deg, #ff6b6b, #f06595, #845ef7);
+      box-shadow: 0 6px 15px rgba(28, 173, 159, 0.6);
+}
+</style>
+
+ </style>
+</head>
+<body>
+   
+        <div class="overlay"></div>
+    <nav class="one">
+        <a href="index.html">ASSIGNMENT 1</a>
+        <a href="#">ASSIGNMENT 2</a>
+    </nav>
+    <br><br>
+    <nav class="two">
+        <a href="#">PLATINA</a>
+    </nav>
+    <div class="text">
+        <h2>Enjoy Holidays with Affordable Hotels</h2>
+    </div>
+    <button type="button" class="search">START SEARCHING</button>
+    <div class="arrow">
+        <button class="arrow-button">&#8593;</button><br>
+        <button class="arrow-button">&#8595;</button>
+    </div>
+
+</body>
+</html>

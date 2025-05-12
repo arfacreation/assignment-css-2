@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .visualize{
+   display: inline-block;
+padding: 0%;
+margin: 5%;
+max-width: 20%;
+        }
+        .create{
+            display: inline-block;
+            padding: 0%;
+            margin: 5%;
+max-width: 20%;
+top: 30%;
+        }
+        .grow{
+            display: inline-block;
+            padding: 0%;
+            margin: 5%;
+          max-width: 20%;  
+        }
+.image{
+    padding-top: 3%;
+ display: grid;
+    place-items: center;
+    /* transition: transform 0.3s ease-in-out; */
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+    font-weight: 700;
+    transition: color 0.5s ease;
+}
+button{
+text-align: center;
+margin-top: 3%;
+margin-bottom: 3%;
+margin-left: 25%;
+outline: none;
+padding: 2%;
+background-color: rgb(47,47,240);
+color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: none;
+}
+hr{
+    width: 50%;
+}
+.image:hover{
+    opacity: 80%;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 15px #00ffcc);
+
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(3, 218, 198, 0.6);
+}
+
+.text:hover{
+    background: linear-gradient(90deg, #ff6b6b, #f06595, #845ef7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: background-position 0.5s ease;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">ASSIGNMENT 1</a>
+        <a href="platina.html">ASSIGNMENT 2</a>
+    </nav>
+    <div class="visualize">
+    <div class="image">
+<img src="../images/visulize.PNG" alt="">
+<h3>Visualize it</h3>
+    </div>
+    <div class="text">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui placeat eos a, voluptas maxime nobis odio et quaerat. Modi!</p>
+    </div>
+    <hr>
+<button type="button">read more</button>
+</div>
+<div class="create">
+    <div class="image">
+        <img src="../images/new.PNG" alt="">
+        <h3>Create it</h3>
+    </div>
+    <div class="text">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam saepe at ullam, deserunt necessitatibus et magni ipsa. Minus, eius sequi.</p>
+    </div>
+    <hr>
+    <button type="button">read more</button>
+</div>
+<div class="grow">
+<div class="image">
+<img src="../images/grow.PNG" alt="">
+<h3>Grow it</h3>
+</div>
+<div class="text">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur autem hic alias nobis ab, fugit possimus natus dignissimos nemo cum!</p>
+</div>
+<hr>
+<button type="button">read more</button>
+</div>
+</body>
+</html>
